@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list> 
+        <welcome-file>accueil.jsp</welcome-file> 
+    </welcome-file-list>     
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <resource-ref>
+        <res-ref-name> jdbc/im2ag</res-ref-name>
+        <res-type> javax.sql.DataSource</res-type>
+        <res-auth> Container </res-auth>
+    
+    </resource-ref>
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <include-prelude>/WEB-INF/header.jspf</include-prelude>
+            <include-coda>/WEB-INF/footer.jspf</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+    <servlet>
+        <servlet-name>AchatTickets</servlet-name>
+        <servlet-class>MyTheatre.controller.AchatTickets</servlet-class>
+        <!--
+           Paramètres d'initialisation de la servlet. Ils sont récupérés à 
+           l'initalisation de la servlet, lors de son chargement par le container
+           (Tomcat).
+        -->
+        <init-param>
+            <!--    
+                serveur smtp  
+            -->
+            <param-name>smtp_server</param-name> 
+            <param-value>152.77.82.189</param-value>
+        </init-param>
+        <init-param>
+            <!--    
+                port serveur smtp  
+            -->
+            <param-name>smtp_port</param-name>
+            <param-value>587</param-value>
+        </init-param>
+        <init-param>
+            <!--    
+                nom utilisateur mail 
+            -->
+            <param-name>mail_user_name</param-name>
+            <param-value>mintsaj</param-value>
+        </init-param>
+        <init-param>
+            <!--    
+                mot de passe utilisateur mail  
+            -->
+            <param-name>mail_user_passwd</param-name>
+            <param-value>rrKF7VZwS2</param-value>
+        </init-param>
+        <init-param>
+            <!--    
+                adresse mail pour l'expéditeur 
+            -->
+            <param-name>sender</param-name>
+            <param-value>groupe3PIm2ag@gmail.com</param-value>
+        </init-param>
+        <init-param>
+            <!--
+               le titre (objet) du mail
+            -->
+            <param-name>title</param-name>
+            <param-value>Récapitulatif de commande</param-value>
+        </init-param>
+    </servlet>
+</web-app>

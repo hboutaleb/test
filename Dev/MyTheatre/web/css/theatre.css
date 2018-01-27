@@ -1,0 +1,307 @@
+/* redefinition de styles generaux */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    font-family : Arial, "Times New Roman", serif;
+    font-style: normal;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h2{
+    font-size: 14px;
+}
+
+/* classes d'utlisation communees pour plusieurs elements*/
+
+.largeur100p{
+    width:100%;
+}
+
+.largeur50p{
+    width:50%;
+}
+.largeur90P{
+    width:90%;
+}
+
+.largeur15p{
+    width:15%;
+}
+.hauteur25px{
+    height: 25px;
+}
+
+.hauteur300px{
+    height: 300px;
+}
+
+.maxWidth500p{
+max-width: 500px;    
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.droite{
+    float: right;
+    text-align: center;
+}
+
+.cache{
+    display:none;
+}
+.pointeurMain{
+    cursor: pointer;
+}
+/*h3{
+    font-size: 1em;
+}*/
+
+/* Definitions pour la navigation */
+nav ul{
+    padding: 3px 0;   /* 3px top and bottom, 0px left and right */
+    margin: 10px 0px 10px 0px;  /* top right bottom left */ 
+    border-bottom: 1px solid #778; /* width style color */
+}
+
+nav ul li{
+    list-style: none; /* No marker is shown */
+    margin: 0; 
+    display: inline;
+}
+
+nav ul li a{
+    padding: 3px 0.5em; 
+    margin-left: 3px; 
+    border: 1px solid #666699; 
+    border-bottom: none; 
+    background: #CCCCFF;  /* La couleur est "pervenche"*/
+}
+
+nav ul li a:hover{
+    color: #000000;
+    background: #aaaaee;
+    border-color: #222277;
+}
+
+/*identifiants */
+#wrapper{
+    display: table;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+#wrapper > div{
+    display: table-row;
+}
+#wrapper > div > div{
+    display: table-cell;
+}
+
+#header{
+    width: 100%;
+    text-align: center;
+    color:#FFFFFF;
+    font-weight: bolder;
+    background-image: url('../images/Theatre1.jpg');
+    background-size: 100px 100px;
+    padding-top: 15px;
+    font-size: 50px;
+}
+
+#top{
+    height: 100px;
+}
+
+#middle{
+    background-color: #FFFFFF;
+}
+
+#pageTitre{
+    display: table;
+    height: 100%;
+    width:100%;
+    text-align: center;
+}
+#pageTitre > div{
+    display: table-row;
+}
+
+#pageTitre > div > div{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#bottom{
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #710A08;
+    font-size: 0.8em;
+}
+
+#bottom-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottom-flex > div{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* redefinition des tableaux*/
+table{
+    /*border-collapse: collapse;*/
+    border: 1px solid #000000;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+}
+
+tr{ 
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+    height: 25px;
+}
+
+/* Definition des boutons */
+input[type=submit]{
+    background-color: #777777;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 200px;
+}
+
+input[type=submit]:disabled {
+    background: #AAAAAA;
+    cursor: not-allowed;
+}
+
+/* Definition des liens */
+.lien{
+    text-decoration: none; 
+    color: #0000ff; 
+}
+
+/* pour les formulaires */
+.paddingPourForm{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.labelGauche{
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+}
+.labelSuivant{
+    display: inline-block;
+    padding-right: 20px; 
+    padding-left: 20px;
+}
+
+.decalageGauche{
+    padding-left: 30px;
+}
+
+/* Pour detail representation */
+.photoDetail{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.floatLeft{
+    float: left;    
+}
+
+.floatLeftAndClear{
+    float: left;    
+    clear:both;
+}
+
+#divDetail{
+    padding-left: 52%;
+    text-align: justify;
+}
+
+#divDetail div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#boutonDetail{
+    text-align: right;
+}
+
+#infodetail{
+    text-align: center;
+    width: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* les pictogrammes qui s affichent comme panier plein par exemple*/
+.pictogramme{
+    height:18px;
+    vertical-align: middle;
+}
+
+/* Legende des pictogrammes = bulles informatives  */
+.legende {
+    position: relative;
+    display: inline-block;
+}
+
+/* le texte de la legende */
+.legende .legendeTexte {
+    visibility: hidden;
+    width: 400px;
+    background-color: #777777;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.legende:hover .legendeTexte {
+    visibility: visible;
+}
+
+/* Les Messages */
+/* Message d'erreurs'*/
+.messageErreur{
+    background-color:  #ffe6e6;
+    border: 1px solid #ff0000; 
+    padding : 15px;
+}
+
+/* Message d'information */
+.messageInformation{
+    border: 1px solid #0000ff;
+    padding: 15px;
+    background-color: #e6e6ff;
+}

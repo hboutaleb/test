@@ -1,0 +1,30 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+                </div>
+            </div>
+            <div id="bottom">
+                <div>
+                    <div id="bottom-flex">
+                        <div>
+                            Adresse Billetterie <br>
+                            4 Rue Félix Poulat <br>
+                            38000 Grenoble</div>
+                        <div>
+                            Adresse Théatre <br>
+                            4 Rue Félix Poulat <br>
+                            38000 Grenoble
+                        </div>
+                        <div>
+                            Contact <br>
+                            Voir Groupe3 <br>
+                            Projet d'Intégration
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+
+          
+</html>

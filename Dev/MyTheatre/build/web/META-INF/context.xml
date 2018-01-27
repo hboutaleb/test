@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/MyTheatre">
+    <Resource name="jdbc/ufrma"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxActive="10"
+              maxIdle="3"
+              maxwait="10000"
+              username="root"
+              password=""
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/groupe4" />
+</Context>

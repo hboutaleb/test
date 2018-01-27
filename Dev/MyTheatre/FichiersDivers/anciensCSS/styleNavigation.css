@@ -1,0 +1,37 @@
+
+nav ul {
+ padding: 3px 0;   /* 3px top and bottom, 0px left and right */
+ margin: 10px 0px 10px 0px;  /* top right bottom left */ 
+ border-bottom: 1px solid #778; /* width style color */
+/* font: bold 12px Verdana, sans-serif; */ 
+}
+
+nav ul li {
+ list-style: none; /* No marker is shown */
+ margin: 0; 
+ display: inline;  /* The element is displayed as an inline element
+                     (like span). An inline element has no line break
+					 before or after it, and it tolerates HTML elements
+					 next to it */
+}
+
+nav ul li a {
+ padding: 3px 0.5em; 
+ margin-left: 3px; 
+ border: 1px solid #669; 
+ border-bottom: none; 
+ background: #ccf; 
+ text-decoration: none; 
+}
+
+nav ul li a#encours {
+ background: white; 
+ border-bottom: 1px solid white; 
+}
+
+nav ul li a:hover {
+ color: #000;
+ background: #aae;
+ border-color: #227;
+}
+

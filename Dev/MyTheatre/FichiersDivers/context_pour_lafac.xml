@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/MyTheatre">
+    <Resource name="jdbc/im2ag"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxActive="10"
+              maxIdle="3"
+              maxwait="10000"
+              username="groupe3"
+              password="groupe3"
+              driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@im2ag-oracle.e.ujf-grenoble.fr:1521:im2ag" />
+</Context>
