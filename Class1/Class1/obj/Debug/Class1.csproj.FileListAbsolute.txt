@@ -1,0 +1,11 @@
+c:\users\hboutaleb\documents\visual studio 2017\Projects\Class1\Class1\bin\Debug\Class1.exe.config
+c:\users\hboutaleb\documents\visual studio 2017\Projects\Class1\Class1\bin\Debug\Class1.exe
+c:\users\hboutaleb\documents\visual studio 2017\Projects\Class1\Class1\bin\Debug\Class1.pdb
+c:\users\hboutaleb\documents\visual studio 2017\Projects\Class1\Class1\obj\Debug\Class1.exe
+c:\users\hboutaleb\documents\visual studio 2017\Projects\Class1\Class1\obj\Debug\Class1.pdb
+C:\Users\hboutaleb\Documents\Visual Studio 2017\Projects\Class1\Class1\obj\Debug\Class1.csprojResolveAssemblyReference.cache
+C:\Users\hboutaleb\Documents\Visual Studio 2017\Projects\Class1\Class1\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\hboutaleb\Documents\Visual Studio 2017\Projects\Class1\Class1\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\hboutaleb\Documents\Visual Studio 2017\Projects\Class1\Class1\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\hboutaleb\Documents\Visual Studio 2017\Projects\Class1\Class1\obj\Debug\Class1.csproj.Class1.exe.config
+C:\Users\hboutaleb\Documents\Visual Studio 2017\Projects\Class1\Class1\bin\Debug\System.Data.Entity.Repository.dll
