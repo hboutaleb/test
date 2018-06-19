@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<%@page import="MyTheatre.model.TypeMessagesAppli"%>
+<%@page import="MyTheatre.model.MessagesAppli" %>
+
+<html>
+  <head>
+    <title>MyTheater</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/theatre.css" rel="stylesheet" type="text/css"/>
+    <link href="js/jQuery-Seat-Charts/jquery.seat-charts.css" rel="stylesheet" type="text/css"/>
+    <link href="css/styleConfigSeatChart.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="top">
+        <div id="header">               
+          My Theatre
+        </div>
+      </div>
+      <div style="height:10px;">
+        <%
+            if (request.getAttribute("noheader") == null) {
+        %>
+        <nav>
+          <ul>
+            <li><a class="lien" href="accueil.jsp" id="accueil">Accueil</a></li>
+            <li><a class="lien" href="rechercheRepresentations.jsp">Recherche</a></li>
+          </ul>
+        </nav>
+        <%
+            }
+        %>
+      </div>
+      <div id="middle">
+
+        <div>
+          <%    MessagesAppli message = (MessagesAppli) request.getAttribute("message");
+          %>
+          <% if (message != null) {
+                  if (message.getType() == TypeMessagesAppli.erreur) { %>
+          <div class="messageErreur">
+            <% } else if (message.getType() == TypeMessagesAppli.info) { %>
+            <div class="messageInformation">        
+              <% }%>
+              <%= message.getMessage()%> </div>
+            <% }%>

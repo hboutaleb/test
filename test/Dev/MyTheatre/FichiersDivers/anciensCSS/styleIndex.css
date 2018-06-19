@@ -1,0 +1,14 @@
+@import url('styleCommun.css');
+@import url('styleNavigation.css');
+
+section{
+    text-align: center;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    height: 300px;
+    margin-left: -100px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -100px;
+}
+

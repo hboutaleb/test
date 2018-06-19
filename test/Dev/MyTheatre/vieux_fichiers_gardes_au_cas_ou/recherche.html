@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Recherche</title>
+        <meta charset="UTF-8">
+        <link href="css/styleRecherche.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>                
+                <h1>MYTHEATRE</h1>
+            </header>
+            <!--Le menu de navigation-->
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="accueil">Accueil</a></li>
+                    <li><a href="recherche.html">Recherche</a></li>
+                </ul>
+            </nav>
+
+            <!--Le contenu de la page-->
+             <section>
+                <h1>
+                    Veuillez s'il vous plait choisir une date, ou un horaire qui vous conviennent.
+                </h1>
+
+                <form action="RechercheSpectacle">
+                    <p>  
+
+                        <label> Date du : </label>
+                        <input type="date" name ="dateDebut" value="2017-01-01"/>
+                        <label> au : </label>
+                        <input type="date" name ="dateFin" value="2017-01-02"/>
+                    </p>
+
+                    <p>    
+                        <label> Horaire de : </label>
+                        <input type="time" name ="heureDebut" value="08:00"/>
+                        <label> au: </label> 
+                        <input type="time" name ="heureFin" value="08:00"/>
+                    </p>
+
+                    <p>
+                        Valider <input id ="Valider" type="submit" value="Ok"/>
+
+
+                    </p>
+
+                </form>
+            </section>
+
+
+            <!--Le pied de page-->
+            <footer>     
+                <div id="main">
+                    <div >Adresse Billetrie <br>
+                        4 Rue Félix Poulat <br>
+                        38000 Grenoble</div>
+                    <div>Adresse Theatre <br>
+                        4 Rue Félix Poulat <br>
+                        38000 Grenoble</div>
+                    <div>Contact <br>
+                        Voir Groupe3 <br>
+                        Projet d'Intégration</div>
+
+                </div>
+            </footer>
+
+        </div>
+    </body>
+</html>
