@@ -12,13 +12,13 @@
 </head>
 <body>
 
-    <div>
+    @*<div>
 
-        <h2>All Products</h2>
-        <ul id="products" />
+            <h2>All Products</h2>
+            <ul id="products" />
 
 
-    </div>
+        </div>*@
     <div>
         <table class="table">
             <thead>
@@ -27,30 +27,42 @@
                     <th>Lastname</th>
                 </tr>
             </thead>
-            <tbody ></tbody>
+            <tbody></tbody>
         </table>
     </div>
 
-    <div >
+    <div>
         <h2>Search by ID</h2>
         <input type="text" id="prodId" size="5" />
         <input type="button" value="Search" onclick="find();" />
         <p id="product" />
     </div>
 
+    <div>
+        <h2>
+            ajouter un utilisateur
+            <button id="show" type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-plus"></span>
+            </button>
+        </h2>
+    </div>
     <div id="cherche">
-        <h2>ajouter un utilisateur</h2>
-        <label>Firstname</label><input type="text" id="Firstname" size="25" />
-        <label>lastname</label><input type="text" id="lastname" size="25" />
+        <label>Firstname: </label><input type="text" id="Firstname" size="25" />
+        <label>lastname: </label><input type="text" id="lastname" size="25" />
         <input type="button" value="Add" onclick="post();" />
-     
+
     </div>
 
+    <button class='regular' name='but_comment'
+            onclick="this.getElementsByTagName('span')[0].innerHTML=(this.getElementsByTagName('span')[0].innerHTML=='Ajouter un commentaire'? 'Masquer la zone de commentaire':'Ajouter un commentaire');">
+        <img alt="" src="/img/img_bouton.png" />  <span>Ajouter un commentaire</span>
+    </button>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
     <script>
         var uri = 'api/authors';
 
         $(document).ready(function () {
+            $("#cherche").hide();
             // Send an AJAX request
             debugger;
             $.getJSON(uri)
@@ -58,10 +70,14 @@
                     // On success, 'data' contains a list of products.
                     $.each(data, function (key, item) {
                         // Add a list item for the product.
-                        $('<li>', { text: formatItem(item) }).appendTo($('#products'));
-                        $("tbody").append('<tr id="'+ item.Id+ '"><td>' + item.Firstname + '</td>' + '<td>' + item.Lastname + '</td><td>' + '<button onclick="dellet(' + item.Id + ')">Click me</button>' + '</td></tr>');
+                        ////$('<li>', { text: formatItem(item) }).appendTo($('#products'));
+                        $("tbody").append('<tr id="' + item.Id + '"><td>' + item.Firstname + '</td>' + '<td>' + item.Lastname + '</td><td>' + '<button onclick="dellet(' + item.Id + ')">Click me</button>' + '</td></tr>');
                     });
                 });
+        });
+
+        $("#show").click(function () {
+            $("#cherche").show();
         });
 
         function formatItem(item) {
@@ -82,8 +98,8 @@
         function post() {
 
             debugger
-            var Firstname = document.getElementById("Firstname").value; 
-            var lastname = document.getElementById("lastname").value; 
+            var Firstname = document.getElementById("Firstname").value;
+            var lastname = document.getElementById("lastname").value;
             var data = {
                 "Firstname": Firstname,
                 "Lastname": lastname
@@ -97,23 +113,26 @@
                 contentType: "application/json; charset=utf-8",
                 data: json,
                 success: function (results) {
-                  
-                    $("tbody").append('<tr id="'+results.Id+'"><td>' + results.Firstname + '</td>' + '<td>' + results.Lastname + '</td><td>' + '<button onclick="dellet(' + results.Id + ')">Click me</button>' + '</td></tr>');
-                    location.reload();
+
+                    $("tbody").append('<tr id="' + results.Id + '"><td>' + results.Firstname + '</td>' + '<td>' + results.Lastname + '</td><td>' + '<button onclick="dellet(' + results.Id + ')">Click me</button>' + '</td></tr>');
+                    //location.reload();
+                    $("#cherche").hide();
+
+
                 }
             });
         }
 
         function dellet(id) {
 
-            
+
             $.ajax({
                 url: '/api/Authors/' + id,
                 type: 'DELETE',
                 success: function (results) {
                     console.log("#" + id);
                     debugger;
-                    $("#"+id).remove();
+                    $("#" + id).remove();
 
                 }
             });

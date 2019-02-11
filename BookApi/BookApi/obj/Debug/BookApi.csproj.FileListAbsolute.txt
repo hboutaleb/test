@@ -41,3 +41,46 @@ C:\Users\User1\source\repos\BookApi\BookApi\obj\Debug\BookApi.csprojResolveAssem
 C:\Users\User1\source\repos\BookApi\BookApi\obj\Debug\BookApi.csproj.CoreCompileInputs.cache
 C:\Users\User1\source\repos\BookApi\BookApi\obj\Debug\BookApi.dll
 C:\Users\User1\source\repos\BookApi\BookApi\obj\Debug\BookApi.pdb
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\BookApi.dll.config
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\BookApi.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\BookApi.pdb
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\EntityFramework.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\EntityFramework.SqlServer.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\Newtonsoft.Json.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Net.Http.Formatting.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Helpers.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Http.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Http.WebHost.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Mvc.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Razor.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Webpages.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Webpages.Razor.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\EntityFramework.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\EntityFramework.SqlServer.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Razor.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Webpages.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Webpages.Razor.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Helpers.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Mvc.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\Newtonsoft.Json.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Net.Http.Formatting.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Http.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\System.Web.Http.WebHost.xml
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Razor.resources.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Webpages.resources.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Webpages.Razor.resources.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Net.Http.Formatting.resources.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Http.resources.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Http.WebHost.resources.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\obj\Debug\BookApi.csprojResolveAssemblyReference.cache
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\obj\Debug\BookApi.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\obj\Debug\BookApi.dll
+C:\Users\User1\Desktop\github projet\BookApi\BookApi\obj\Debug\BookApi.pdb
