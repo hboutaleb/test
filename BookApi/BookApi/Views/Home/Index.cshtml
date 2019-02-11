@@ -1,0 +1,124 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Product App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div>
+
+        <h2>All Products</h2>
+        <ul id="products" />
+
+
+    </div>
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                </tr>
+            </thead>
+            <tbody ></tbody>
+        </table>
+    </div>
+
+    <div >
+        <h2>Search by ID</h2>
+        <input type="text" id="prodId" size="5" />
+        <input type="button" value="Search" onclick="find();" />
+        <p id="product" />
+    </div>
+
+    <div id="cherche">
+        <h2>ajouter un utilisateur</h2>
+        <label>Firstname</label><input type="text" id="Firstname" size="25" />
+        <label>lastname</label><input type="text" id="lastname" size="25" />
+        <input type="button" value="Add" onclick="post();" />
+     
+    </div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script>
+        var uri = 'api/authors';
+
+        $(document).ready(function () {
+            // Send an AJAX request
+            debugger;
+            $.getJSON(uri)
+                .done(function (data) {
+                    // On success, 'data' contains a list of products.
+                    $.each(data, function (key, item) {
+                        // Add a list item for the product.
+                        $('<li>', { text: formatItem(item) }).appendTo($('#products'));
+                        $("tbody").append('<tr id="'+ item.Id+ '"><td>' + item.Firstname + '</td>' + '<td>' + item.Lastname + '</td><td>' + '<button onclick="dellet(' + item.Id + ')">Click me</button>' + '</td></tr>');
+                    });
+                });
+        });
+
+        function formatItem(item) {
+            return item.Firstname + " " + item.Lastname;
+        }
+
+        function find() {
+            var id = $('#prodId').val();
+            $.getJSON('api/authors' + '/' + id)
+                .done(function (data) {
+                    $('#product').text(formatItem(data));
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    $('#product').text('Error: ' + err);
+                });
+        }
+
+        function post() {
+
+            debugger
+            var Firstname = document.getElementById("Firstname").value; 
+            var lastname = document.getElementById("lastname").value; 
+            var data = {
+                "Firstname": Firstname,
+                "Lastname": lastname
+            };
+
+            var json = JSON.stringify(data);
+
+            $.ajax({
+                url: '/api/Authors',
+                type: 'POST',
+                contentType: "application/json; charset=utf-8",
+                data: json,
+                success: function (results) {
+                  
+                    $("tbody").append('<tr id="'+results.Id+'"><td>' + results.Firstname + '</td>' + '<td>' + results.Lastname + '</td><td>' + '<button onclick="dellet(' + results.Id + ')">Click me</button>' + '</td></tr>');
+                    location.reload();
+                }
+            });
+        }
+
+        function dellet(id) {
+
+            
+            $.ajax({
+                url: '/api/Authors/' + id,
+                type: 'DELETE',
+                success: function (results) {
+                    console.log("#" + id);
+                    debugger;
+                    $("#"+id).remove();
+
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+
