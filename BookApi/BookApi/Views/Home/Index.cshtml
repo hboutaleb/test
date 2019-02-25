@@ -9,6 +9,15 @@
     <title>Product App</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        .red {
+            color: #ff0000;
+        }
+    </style>
 </head>
 <body>
 
@@ -19,12 +28,13 @@
 
 
         </div>*@
-    <div>
-        <table class="table">
+    <div style="margin-top:50px">
+        <table class="table table-hover table-striped">
             <thead>
                 <tr>
                     <th>Firstname</th>
                     <th>Lastname</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody></tbody>
@@ -41,22 +51,74 @@
     <div>
         <h2>
             ajouter un utilisateur
-            <button id="show" type="button" class="btn btn-default btn-sm">
-                <span class="glyphicon glyphicon-plus"></span>
-            </button>
+            <button id="show" type="button" class="btn btn-default btn-sm glyphicon glyphicon-plus"></button>
         </h2>
     </div>
-    <div id="cherche">
-        <label>Firstname: </label><input type="text" id="Firstname" size="25" />
-        <label>lastname: </label><input type="text" id="lastname" size="25" />
-        <input type="button" value="Add" onclick="post();" />
+    @*<div id="cherche">
+            <label>Firstname: </label><input type="text" id="Firstname" size="25" />
+            <label>lastname: </label><input type="text" id="lastname" size="25" />
+            <input type="button" value="Add" onclick="post();" />
 
+        </div>*@
+    @* Modal de formulaire ajout d'un noveau auteur *@
+    <div id="monModal" class="modal fade">
+        <div class="modal-dialog">
+            <div style="margin-left: -700px;margin-right:600px;" class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Add new item</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="md-form col-md-6">
+                            <label>Firstname</label>
+                            <input type="text" class="form-control" id="Firstname" size="25" placeholder="Firstname">
+                        </div>
+                        <div class=" md-form col-md-6">
+                            <label>Lastname</label>
+                            <input input type="text" class=" form-control" id="lastname" size="25" placeholder="Last Name">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                    <button type="button" onclick="post()" ; class="btn  btn-primary">Sauvegarder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @* modal to updat in auteur  *@
+    <div id="updatModal" class="modal fade">
+        <div class="modal-dialog">
+            <div style="margin-left: -700px;margin-right:600px;" class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Update an item</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="md-form col-md-6">
+                            <label>Firstname</label>
+                            <input type="text" class="form-control" id="FirstnamePut" size="25" placeholder="Firstname">
+                        </div>
+                        <div class=" md-form col-md-6">
+                            <label>Lastname</label>
+                            <input input type="text" class=" form-control" id="lastnamePut" size="25" placeholder="Last Name">
+                        </div>
+                        <p id="idPut"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismissate="modal">Fermer</button>
+                    <button type="button" onclick="put(65)" ; class="btn  btn-primary">Update</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <button class='regular' name='but_comment'
-            onclick="this.getElementsByTagName('span')[0].innerHTML=(this.getElementsByTagName('span')[0].innerHTML=='Ajouter un commentaire'? 'Masquer la zone de commentaire':'Ajouter un commentaire');">
-        <img alt="" src="/img/img_bouton.png" />  <span>Ajouter un commentaire</span>
-    </button>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
     <script>
         var uri = 'api/authors';
@@ -71,13 +133,15 @@
                     $.each(data, function (key, item) {
                         // Add a list item for the product.
                         ////$('<li>', { text: formatItem(item) }).appendTo($('#products'));
-                        $("tbody").append('<tr id="' + item.Id + '"><td>' + item.Firstname + '</td>' + '<td>' + item.Lastname + '</td><td>' + '<button onclick="dellet(' + item.Id + ')">Click me</button>' + '</td></tr>');
+                        $("tbody").append('<tr onclick= "update(' + item.Id + ')" id="' + item.Id + '"><td>' + item.Firstname + '</td>' + '<td>' + item.Lastname + '</td><td>' + '<button onclick="dellet(' + item.Id + ')"><span class="glyphicon glyphicon-remove-sign red"></span></button>' + '</td></tr>');
                     });
                 });
         });
 
         $("#show").click(function () {
-            $("#cherche").show();
+            //$("#cherche").show();
+            //$("#show").toggleClass("btn btn-default btn-sm glyphicon glyphicon-minus");
+            $("#monModal").modal('show');
         });
 
         function formatItem(item) {
@@ -95,6 +159,20 @@
                 });
         }
 
+        function get(id) {
+            
+            $.getJSON('api/authors' + '/' + id)
+                .done(function (data) {
+                    document.getElementById("idPut").value = data.Id;
+                    document.getElementById("FirstnamePut").value=data.Firstname;
+                    document.getElementById("lastnamePut").value=data.Lastname;
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    document.getElementById("idPut").value = "";
+                    document.getElementById("FirstnamePut").value="";
+                    document.getElementById("lastnamePut").value="";
+                });
+        }
         function post() {
 
             debugger
@@ -114,7 +192,9 @@
                 data: json,
                 success: function (results) {
 
-                    $("tbody").append('<tr id="' + results.Id + '"><td>' + results.Firstname + '</td>' + '<td>' + results.Lastname + '</td><td>' + '<button onclick="dellet(' + results.Id + ')">Click me</button>' + '</td></tr>');
+                   $("tbody").append('<tr onclick= "update(' + results.Id + ')" id="' + results.Id + '"><td>' + results.Firstname + '</td>' + '<td>' + results.Lastname + '</td><td>' + '<button onclick="dellet(' + results.Id + ')"><span class="glyphicon glyphicon-remove-sign red"></span></button>' + '</td></tr>');
+                    //$("tbody").append('<tr onclick= "update(' + results.Id + ')" id="' + results.Id + '" < td > ' + results.Lastname + '><td>' + results.Firstname + '</td>' + '<td>' + results.Lastname + '</td><td>' + '<button onclick="dellet(' + results.Id + ')"><span class="glyphicon glyphicon-remove-sign red"></span></button>' + '</td></tr>');
+
                     //location.reload();
                     $("#cherche").hide();
 
@@ -122,9 +202,42 @@
                 }
             });
         }
+        function put(id) {
 
+            debugger
+            var id = document.getElementById("idPut").value;
+            var Firstname = document.getElementById("FirstnamePut").value;
+            var lastname = document.getElementById("lastnamePut").value;
+            var data = {
+                "Id":id,
+                "Firstname": Firstname,
+                "Lastname": lastname
+            };
+
+            var json = JSON.stringify(data);
+
+            $.ajax({
+                url: '/api/Authors/'+id,
+                type: 'PUT',
+                contentType: "application/json; charset=utf-8",
+                data: json,
+                success: function (results) {
+
+                    
+                    location.reload();
+                   
+
+
+                }
+            });
+        }
+        function update(id) {
+            debugger;
+            get(id);
+            $("#updatModal").modal('show');
+        }
         function dellet(id) {
-
+           
 
             $.ajax({
                 url: '/api/Authors/' + id,
