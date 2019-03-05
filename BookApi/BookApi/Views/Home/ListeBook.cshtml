@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewBag.Title = "ListeBook";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <style>
+        #div1 {
+            border: 1px solid #808080;
+            background-color: white;
+            margin-left:60px;
+            margin-bottom:20px;
+         
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Liste Boock</h1>
+    <div>
+        <h2>Search by ID</h2>
+        <input type="text" id="prodId" size="5" />
+        <input type="button" value="Search" onclick="find();" />
+        <p id="product" />
+    </div>
+    <div class="container">
+        <div id="liste" class=" row">
+            @*<div id="div1" class="col-md-5 ">
+                    <div class="thumbnail col-md-4">
+                        <a href="~/fonts/Image/Image1.jpg" target="_blank">
+                            <img src="~/fonts/Image/Image1.jpg" alt="Lights" style="width:100%;height: 200px;">
+
+                        </a>
+
+                    </div>
+                    <div class="col-md-2">
+                        <span>Name:</span><br />
+                        <span>Author  :</span><br />
+                        <span>Date :</span><br />
+                    </div>
+                </div>
+                <div id="div1" class="col-md-5 ">
+                    <div class="thumbnail col-md-4">
+                        <a href="~/fonts/Image/Image1.jpg" target="_blank">
+                            <img src="~/fonts/Image/Image1.jpg" alt="Lights" style="width:100%;height: 200px;">
+
+                        </a>
+
+                    </div>
+                    <div class="col-md-2">
+                        <span>Name:</span><br />
+                        <span>Author  :</span><br />
+                        <span>Date :</span><br />
+                    </div>
+                </div>*@
+
+        </div>
+    </div>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script>
+        var uri = 'http://localhost:49341/api/Books';
+
+        $(document).ready(function () {
+
+
+            debugger;
+            $.getJSON(uri)
+                .done(function (data) {
+                    // On success, 'data' contains a list of products.
+                    $.each(data, function (key, item) {
+                        debugger;
+                        // Add a list item for the product.
+
+                        $('<div id="div1" class="col-md-4 "><div id="' + item.Id +'" class="thumbnail col-md-6"></div > <div class="col-md-6"><span>Name:' + item.Title + '</span><br /> <span>Author  : </span><br /><span>Date :</span><br /> </div></div>').appendTo($('#liste'));
+                        // $("tbody").append('<tr onclick= "update(' + item.Id + ')" id="' + item.Id + '"><td>' + item.Firstname + '</td>' + '<td>' + item.Lastname + '</td><td>' + '<button onclick="dellet(' + item.Id + ')"><span class="glyphicon glyphicon-remove-sign red"></span></button>' + '</td></tr>');
+                        $('#' + item.Id).prepend($('<img>', { id: 'theImg', src: '/fonts/Image/Image1.jpg' ,alt:'Lights', style:'width:100%;height: 200px;'}))
+                    });
+                });
+        });
+
+        function formatItem(item) {
+            return item.Firstname + " " + item.Lastname;
+        }
+        function find() {
+            debugger;
+            var id = $('#prodId').val();
+            $.getJSON('http://localhost:49341/api/Books' + '/' + id)
+                .done(function (data) {
+                    $('#product').text(formatItem(data));
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    $('#product').text('Error: ' + err);
+                });
+        }
+    </script>
+</body>
+</html>

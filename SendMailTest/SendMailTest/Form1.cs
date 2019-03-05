@@ -33,9 +33,9 @@ namespace SendMailTest
             + "<p>Mon premier mail au format HTML</p>"
             + "</body>"
             + "</html>";
-            msg.To.Add("hocineboutaleb@yahoo.fr");
+            msg.To.Add("sihamiggui95@gmail.com");
             string chemin;
-            chemin = "C:\\Users\\hboutaleb\\Documents\\Stage Hocine\\logo.GIF";
+            chemin = "C:\\Users\\User1\\Desktop\\document argania\\rib.PNG";
             msg.Attachments.Add(new System.Net.Mail.Attachment(chemin));
             SmtpClient sc = new SmtpClient("smtp.gmail.com ",587);
             sc.UseDefaultCredentials = false;

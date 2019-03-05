@@ -13,5 +13,10 @@ namespace BookApi.Controllers
         {
             return View();
         }
+
+        public ActionResult ListeBook()
+        {
+            return View();
+        }
     }
 }

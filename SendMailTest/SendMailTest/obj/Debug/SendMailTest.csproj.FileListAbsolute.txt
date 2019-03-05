@@ -7,3 +7,13 @@ C:\Users\hboutaleb\documents\visual studio 2017\Projects\SendMailTest\SendMailTe
 C:\Users\hboutaleb\documents\visual studio 2017\Projects\SendMailTest\SendMailTest\obj\Debug\SendMailTest.pdb
 C:\Users\hboutaleb\Documents\Visual Studio 2017\Projects\SendMailTest\SendMailTest\obj\Debug\SendMailTest.Form1.resources
 C:\Users\hboutaleb\Documents\Visual Studio 2017\Projects\SendMailTest\SendMailTest\obj\Debug\SendMailTest.csprojResolveAssemblyReference.cache
+C:\Users\User1\Desktop\github projet\SendMailTest\SendMailTest\bin\Debug\SendMailTest.exe.config
+C:\Users\User1\Desktop\github projet\SendMailTest\SendMailTest\bin\Debug\SendMailTest.exe
+C:\Users\User1\Desktop\github projet\SendMailTest\SendMailTest\bin\Debug\SendMailTest.pdb
+C:\Users\User1\Desktop\github projet\SendMailTest\SendMailTest\obj\Debug\SendMailTest.csprojResolveAssemblyReference.cache
+C:\Users\User1\Desktop\github projet\SendMailTest\SendMailTest\obj\Debug\SendMailTest.Form1.resources
+C:\Users\User1\Desktop\github projet\SendMailTest\SendMailTest\obj\Debug\SendMailTest.Properties.Resources.resources
+C:\Users\User1\Desktop\github projet\SendMailTest\SendMailTest\obj\Debug\SendMailTest.csproj.GenerateResource.Cache
+C:\Users\User1\Desktop\github projet\SendMailTest\SendMailTest\obj\Debug\SendMailTest.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\github projet\SendMailTest\SendMailTest\obj\Debug\SendMailTest.exe
+C:\Users\User1\Desktop\github projet\SendMailTest\SendMailTest\obj\Debug\SendMailTest.pdb
