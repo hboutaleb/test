@@ -7,23 +7,61 @@
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
+
+    <style>
+        #tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+            #tooltip .tooltiptext {
+                visibility: hidden;
+                width: 300px;
+                background-color:darkgray;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+                position: absolute;
+                z-index: 1;
+                top: 90%;
+                left: -100%;
+                margin-left: -60px;
+            }
+
+                #tooltip .tooltiptext::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 100%;
+                    left: 65%;
+                    margin-left: -5px;
+                    border-width: 5px;
+                    border-style: solid;
+                    border-color: transparent transparent darkgray transparent;
+                }
+
+            #tooltip:hover .tooltiptext {
+                visibility: visible;
+            }
+    </style>
 </head>
 <body>
     @*<div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav"></ul>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav"></ul>
-            </div>
-        </div>
-    </div>*@
+        </div>*@
     <nav class="navbar navbar-inverse  navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -42,12 +80,21 @@
                 <li><a href="/Home/ListeBook">Page 2</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li id="tooltip"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Mon Panier</a>
+                
+                                    <div class="tooltiptext">
+
+                                        <div id="panier"></div>
+                                    </div>
+                </li>
                 <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+               
             </ul>
 
         </div>
     </nav>
+
+    
 
 
     <div class="container body-content">
@@ -60,5 +107,6 @@
 
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

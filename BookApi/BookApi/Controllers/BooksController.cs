@@ -27,6 +27,8 @@ namespace BookApi.Controllers
         [ResponseType(typeof(Book))]
         public async Task<IHttpActionResult> GetBook(int id)
         {
+            
+
             Book book = await db.Books.FindAsync(id);
             if (book == null)
             {
@@ -40,6 +42,8 @@ namespace BookApi.Controllers
         [ResponseType(typeof(void))]
         public async Task<IHttpActionResult> PutBook(int id, Book book)
         {
+            //DateTime date1 = new DateTime(2013, 6, 1, 12, 32, 30);
+            //book.ReleaseDate = date1;
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
