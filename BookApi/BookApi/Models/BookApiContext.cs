@@ -20,7 +20,9 @@ namespace BookApi.Models
         }
 
         public System.Data.Entity.DbSet<BookApi.Models.Author> Authors { get; set; }
-
+        
         public System.Data.Entity.DbSet<BookApi.Models.Book> Books { get; set; }
+
+        public System.Data.Entity.DbSet<BookApi.Models.Panier> Paniers { get; set; }
     }
 }

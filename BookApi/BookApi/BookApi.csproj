@@ -115,6 +115,9 @@
     <Content Include="fonts\Image\Image1.jpg" />
     <Content Include="fonts\Image\image10.jpg" />
     <Content Include="fonts\Image\image11.jpg" />
+    <Content Include="fonts\Image\image12.jpg" />
+    <Content Include="fonts\Image\image13.jpg" />
+    <Content Include="fonts\Image\image14.jpg" />
     <Content Include="fonts\Image\image2.jpg" />
     <Content Include="fonts\Image\image3.jpg" />
     <Content Include="fonts\Image\image4.jpg" />
@@ -141,12 +144,14 @@
     <Compile Include="Controllers\AuthorsController.cs" />
     <Compile Include="Controllers\BooksController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PaniersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Author.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\BookApiContext.cs" />
+    <Compile Include="Models\Panier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +165,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\ListeBook.cshtml" />
+    <Content Include="Views\Home\DetailBook.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

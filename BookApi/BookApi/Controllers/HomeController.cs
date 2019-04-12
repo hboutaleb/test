@@ -19,6 +19,11 @@ namespace BookApi.Controllers
         {
             return View();
         }
+        public ActionResult DetailBook(string id)
+        {
+            ViewData["Nom"] = id;
+            return View();
+        }
         [HttpPost]
         public ActionResult UploadFiles(IEnumerable<HttpPostedFileBase> files)
         {

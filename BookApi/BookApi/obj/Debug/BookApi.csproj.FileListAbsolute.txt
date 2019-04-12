@@ -80,7 +80,6 @@ C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Mvc.resou
 C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Net.Http.Formatting.resources.dll
 C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Http.resources.dll
 C:\Users\User1\Desktop\github projet\BookApi\BookApi\bin\fr\System.Web.Http.WebHost.resources.dll
-C:\Users\User1\Desktop\github projet\BookApi\BookApi\obj\Debug\BookApi.csprojResolveAssemblyReference.cache
 C:\Users\User1\Desktop\github projet\BookApi\BookApi\obj\Debug\BookApi.csproj.CoreCompileInputs.cache
 C:\Users\User1\Desktop\github projet\BookApi\BookApi\obj\Debug\BookApi.dll
 C:\Users\User1\Desktop\github projet\BookApi\BookApi\obj\Debug\BookApi.pdb

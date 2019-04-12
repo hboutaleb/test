@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "DetailBook";
+}
+
+<h2>DetailBook</h2>
+
+
+<div class="container">
+
+
+    <div id="liste" class=" row">
+
+
+
+    </div>
+    <p id="pan"></p>
+
+</div>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+<script>
+    var uri = 'http://localhost:49341/api/Books';
+    $(document).ready(function () {
+        debugger;
+        var id = @ViewData["Nom"];
+        $.getJSON('http://localhost:49341/api/Books' + '/' + id)
+            .done(function (data) {
+                document.getElementById("pan").value = data;
+                $('<div id="div1" class="col-md-12 "><div id="' + data.Id + '" class="thumbnail col-md-5"></div > <div id="detail' + data.Id + '"class="col-md-5"><span>Name:</span>' + data.Title + '<br /> <span>Genre : ' + data.Genre + '</span><br /><span>Author  :' + data.Author + "" + data.Author + ' </span><br /><span>Date : ' + data.ReleaseDate + '</span><br /><span>Price : ' + data.Price + '</span><br /> <button onclick= "AjoutPnier()" type="button" class="btn btn-primary">Ajouter au panier</button></div></div>').appendTo($('#liste'));
+                // $("tbody").append('<tr onclick= "update(' + data.Id + ')" id="' + data.Id + '"><td>' + data.Firstname + '</td>' + '<td>' + data.Lastname + '</td><td>' + '<button onclick="dellet(' + data.Id + ')"><span class="glyphicon glyphicon-remove-sign red"></span></button>' + '</td></tr>');
+                //$('#detail' + data.Id).append('<a href="/Home/DetailBook/' + data.Id + '">Detail</a>');
+
+                $('#' + data.Id).prepend($('<img>', { id: 'theImg', src: '/fonts/Image/image' + data.Id + '.jpg', alt: 'Lights', style: 'width:100%;height: 500px;' }));
+            })
+            .fail(function (jqXHR, textStatus, err) {
+                $('#liste').text('Error: ' + err);
+            });
+    });
+
+    function AjoutPnier() {
+        debugger;
+        var data = document.getElementById("pan").value;
+        $('<div id="div1" class="col-md-12 "><div id="' + data.Id + '" class="thumbnail col-md-5"></div > <div id="detail' + data.Id + '"class="col-md-5"><span>Name:</span>' + data.Title + '<br /> <span>Genre : ' + data.Genre + '</span><br /><span>Author  :' + data.Author + "" + data.Author + ' </span><br /><span>Date : ' + data.ReleaseDate + '</span><br /><span>Price : ' + data.Price + '</span><br /> <button onclick= "AjoutPanier(' + data + ')" type="button" class="btn btn-primary">Ajouter au panier</button></div></div>').appendTo($('#panier'));
+        // $("tbody").append('<tr onclick= "update(' + data.Id + ')" id="' + data.Id + '"><td>' + data.Firstname + '</td>' + '<td>' + data.Lastname + '</td><td>' + '<button onclick="dellet(' + data.Id + ')"><span class="glyphicon glyphicon-remove-sign red"></span></button>' + '</td></tr>');
+        //$('#detail' + data.Id).append('<a href="/Home/DetailBook/' + data.Id + '">Detail</a>');
+
+        $('#' + data.Id).prepend($('<img>', { id: 'theImg', src: '/fonts/Image/image' + data.Id + '.jpg', alt: 'Lights', style: 'width:100%;height: 200px;' }));
+    }
+
+
+    </script>
