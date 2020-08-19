@@ -1,29 +1,982 @@
 [
-    { "Id": "a20d4095-08ed-45a9-8449-f6e408713a87", "Date": "2020-01-16", "Applicant": { "Firstname": "ikram", "Lastname": "Lalette", "Email": "s.ikram@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook","Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="} ,"Evaluation":"2" },
-    { "Id": "5f990f28-2123-40b9-9f92-ae9cbbfadae6", "Date": "2020-02-16", "Applicant": { "Firstname": "Guillaume", "Lastname": "Lalette", "Email": "s.Guillaume@test.gt"}, "Status": "0", "JobTitle":"Ingénieur (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".rtf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=UHDinU5NIME="} ,"Evaluation":"3" },
-    { "Id": "d511507c-7f78-4ebc-b9a2-6b3ff2b626ed", "Date": "2020-03-16", "Applicant": { "Firstname": "Hocine", "Lastname": "Lalette", "Email": "s.Hocine@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"4" },
-    { "Id": "f5c8b15e-8f90-4e6c-b776-4374eb074863", "Date": "2020-04-16", "Applicant": { "Firstname": "Alexis", "Lastname": "Lalette", "Email": "s.Alexis@test.gt"}, "Status": "0", "JobTitle":"Directeur (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"1"},
-    { "Id": "1ca99e36-a0f4-4bca-81f9-4d7670688222", "Date": "2020-05-16", "Applicant": { "Firstname": "Nella", "Lastname": "Lalette", "Email": "s.Nella@test.gt"}, "Status": "3", "JobTitle":"Commercial (H/F)", "Source": "Facebook","Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="} ,"Evaluation":"0"},
-    { "Id": "9ae386b8-bd6f-4b73-9539-86707ec665a1", "Date": "2020-06-16", "Applicant": { "Firstname": "Mohamed", "Lastname": "Lalette", "Email": "s.Mohamed@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"3" },
-    { "Id": "705fbd44-a65b-43e0-a3db-2513ba15f47d", "Date": "2020-07-16", "Applicant": { "Firstname": "Laino", "Lastname": "Lalette", "Email": "s.Laino@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"1"},
-    { "Id": "2d522628-fceb-4fcb-b90e-98acb69542ae", "Date": "2020-08-16", "Applicant": { "Firstname": "Colline", "Lastname": "Lalette", "Email": "s.Colline@test.gt"}, "Status": "0", "JobTitle":"Ingénieur (H/F)", "Source": "Facebook","Attachement":{"Extension":".doc","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=sYL0HTPHbcU="},"Evaluation":"5" },
-    { "Id": "6bd04594-9f22-4a66-beaa-2fb0b79dd86c", "Date": "2019-09-16", "Applicant": { "Firstname": "Topine", "Lastname": "Lalette", "Email": "s.Topine@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"3"},
-    { "Id": "79cafab1-d597-4969-97dc-57e9d36400a4", "Date": "2019-10-05", "Applicant": { "Firstname": "Loline", "Lastname": "Lalette", "Email": "s.Loline@test.gt"}, "Status": "1", "JobTitle":"Médecin (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"2"},
-    { "Id": "8bbd3d01-328f-4eee-b85f-244b5916a21d", "Date": "2019-12-16", "Applicant": { "Firstname": "Soucis", "Lastname": "Lalette", "Email": "s.Soucis@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"4"},
-    { "Id": "b5df925f-fed0-4e76-8e6e-7956b01e71d2", "Date": "2019-11-16", "Applicant": { "Firstname": "Titania", "Lastname": "Lalette", "Email": "s.Titania@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"3"},
-    { "Id": "2d973605-c984-4ca3-b919-af96816dd274", "Date": "2020-03-09", "Applicant": { "Firstname": "Souche", "Lastname": "Lalette", "Email": "s.Souche@test.gt"}, "Status": "0", "JobTitle":"Pharmacien (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"1"},
-    { "Id": "4ef7c7c8-0de3-41f7-9210-e782af09cbf5", "Date": "2020-03-16", "Applicant": { "Firstname": "Volvic", "Lastname": "Lalette", "Email": "s.Volvic@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".txt","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=Ri5W0lDEHdM=" },"Evaluation":"2"},
-    { "Id": "a26747e6-9f19-40ad-a449-d875015c5b43", "Date": "2020-03-16", "Applicant": { "Firstname": "Yahya", "Lastname": "Lalette", "Email": "s.Yahya@test.gt"}, "Status": "2", "JobTitle":"Peintre (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"5"},
-    { "Id": "347a482c-1f54-40a3-85f9-3f09479d2d95", "Date": "2020-03-16", "Applicant": { "Firstname": "Tora", "Lastname": "Lalette", "Email": "s.Tora@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".jpg","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=5mGKEEy4de8="},"Evaluation":"0"},
-    { "Id": "a7130bd7-00c3-495b-ab2c-545364a06a29", "Date": "2020-03-16", "Applicant": { "Firstname": "Mehdi", "Lastname": "Lalette", "Email": "s.Mehdi@test.gt"}, "Status": "0", "JobTitle":"Architecte (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","txt":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"3"},
-    { "Id": "b80f0605-d921-43ed-8c17-4e90c72903e0", "Date": "2020-03-16", "Applicant": { "Firstname": "Lilia", "Lastname": "Lalette", "Email": "s.Lilia@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".png","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=HgBVaWJ3kJ8="},"Evaluation":"4"},
-    { "Id": "21558dbd-a145-4689-8622-08739f85e782", "Date": "2020-03-16", "Applicant": { "Firstname": "Sana", "Lastname": "Lalette", "Email": "s.Sana@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"2"},
-    { "Id": "732e7e67-f683-4fd6-b0d8-e4597eff4680", "Date": "2020-03-16", "Applicant": { "Firstname": "Raphael", "Lastname": "Lalette", "Email": "s.Raphael@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".odt","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=zWFcNSM2YhA="},"Evaluation":"5"},
-    { "Id": "5854d632-2d71-41b8-8f52-24391c4c7490", "Date": "2020-03-15", "Applicant": { "Firstname": "Virginie", "Lastname": "Lalette", "Email": "s.Virginie@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"2"},
-    { "Id": "ed6f81cc-5d9c-4122-800a-6a0d83cca5a0", "Date": "2018-03-16", "Applicant": { "Firstname": "Pauline", "Lastname": "Lalette", "Email": "s.Pauline@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".jpeg","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=zWFcNSM2YhA="},"Evaluation":"4"},
-    { "Id": "5776e497-656b-4923-baea-46c28b2ca099", "Date": "2020-03-16", "Applicant": { "Firstname": "Sophie", "Lastname": "Lalette", "Email": "s.Sophie@test.gt"}, "Status": "3", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".ott","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"3"},
-    { "Id": "33253279-d552-4ba3-8319-6926b9794fb1", "Date": "2018-03-10", "Applicant": { "Firstname": "Lola", "Lastname": "Lalette", "Email": "s.Lola@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"2"},
-    { "Id": "37f2a61f-e00a-4783-8a93-dbdbdfa1448b", "Date": "2020-03-16", "Applicant": { "Firstname": "Jonathan", "Lastname": "Lalette", "Email": "s.Jonathan@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook","Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=" },"Evaluation":"0"},
-    { "Id": "3e38f0b5-dc40-4ade-be9e-7afa93105f15", "Date": "2018-03-11", "Applicant": { "Firstname": "Marta", "Lastname": "Lalette", "Email": "s.Marta@test.gt"}, "Status": "1", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug="},"Evaluation":"5"},
-    { "Id": "68efe786-8c20-42fd-bbf2-d3a63cc02be2", "Date": "2020-03-16", "Applicant": { "Firstname": "Adam", "Lastname": "Lalette", "Email": "s.Adam@test.gt"}, "Status": "0", "JobTitle":"Commercial (H/F)", "Source": "Facebook" ,"Attachement":{"Extension":".pdf","Url":""},"Evaluation":"0"}
+    { 
+		"Id": "68efe786-8c20-42fd-bbf2-d3a63cc02be2", 
+		"Date": "2020-07-16", 
+		"Applicant": { 
+			"FullName": "Adam hamri", 
+			"Email": "adam.hamri@gmail.com"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 1
+			},  
+		"JobTitle":"Employé Libre Service (H/F)", 
+		"Source": "Indeed",
+		"Rating": "4",
+		"Attachments": [],
+		"Activities": [
+			{
+				"Name": "En cours", 
+				"Date": "2020-07-17", 
+				"UserName": "TELLIER Anne",
+				"UserId": 88
+			},
+			{
+				"Name": "Recrutée",
+				"Date": "2020-07-18", 
+				"UserName": "ROUFFIGNAT Gaelle",
+				"UserId": 90
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Mon premier commentaire", 
+				"Date": "2020-07-17", 
+				"UserName": "TELLIER Anne",
+				"UserId": 88
+			},
+			{
+				"Content": "Mon deuxième commentaire", 
+				"Date": "2020-07-18", 
+				"UserName": "ROUFFIGNAT Gaelle",
+				"UserId": 90
+			}
+		],
+		"Tags": ["emploi", "conseiller"],
+		"UserAccesses": ["User"]
+	},
+	{ 
+		"Id": "3e38f0b5-dc40-4ade-be9e-7afa93105f15", 
+		"Date": "2020-06-10", 
+		"Applicant": { 
+			"FullName": "Marta BAGOT", 
+			"Email": "s.Marta@test.gt"
+			}, 
+		"Status": { 
+			"Name": "En cours", 
+			"Number": 0
+			},  
+		"JobTitle":"Technicien de laboratoire (H/F)", 
+		"Source": "HELLOWORK Sup",
+		"Rating": "0",
+		"Attachments": [{
+			"Id": "3e38f0b5-dc40-4ade-be9e-7afa93105f150610",
+			"OriginalFileName": "MartaCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension":".pdf"
+			},
+			{
+			"Id": "3e38f0b5-dc40-4ade-be9e-7afa93105f1506102",
+			"OriginalFileName": "MartaLettreMotivation",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=zWFcNSM2YhA=",
+			"File": "",
+			"FileExtension":".png"
+			}],
+		"Activities": [
+			{
+				"Name": "En cours", 
+				"Date": "2020-06-15", 
+				"UserName": "Gianni Priscille",
+				"UserId": 93
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Mon premier commentaire", 
+				"Date": "2020-06-15", 
+				"UserName": "Gianni Priscille",
+				"UserId": 93
+			},
+			{
+				"Content": "Mon deuxième commentaire", 
+				"Date": "2020-06-17", 
+				"UserName": "Gianni Priscille",
+				"UserId": 93
+			}
+		],
+		"Tags": [ "conseiller"],
+		"UserAccesses": ["User", "Admin"]
+	},
+	{ 
+		"Id": "37f2a61f-e00a-4783-8a93-dbdbdfa1448b", 
+		"Date": "2020-04-03", 
+		"Applicant": { 
+			"FullName": "Jonathan SALLIOT", 
+			"Email": "s.Jonathan@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Non Recrutée", 
+			"Number": 2
+			},  
+		"JobTitle":"Responsable de secteur (H/F)", 
+		"Source": "LinkedIn_V2",
+		"Rating": "0",
+		"Attachments": [{
+			"Id": "37f2a61f-e00a-4783-8a93-dbdbdfa1448b0403",
+			"OriginalFileName": "MartaCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension":".pdf"
+			}],
+		"Activities": [
+			{
+				"Name": "En cours",
+				"Date": "2020-04-20", 
+				"UserName": "JAY Christine",
+				"UserId": 99
+			},{
+				"Name": "Non Recrutée",
+				"Date": "2020-04-23", 
+				"UserName": "JAY Christine",
+				"UserId": 99
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Mon premier commentaire", 
+				"Date": "2020-04-20", 
+				"UserName": "JAY Christine",
+				"UserId": 99
+			},
+			{
+				"Content": "Mon deuxième commentaire", 
+				"Date": "2020-04-23", 
+				"UserName": "JAY Christine",
+				"UserId": 99
+			}
+		],
+		"Tags": [ "conseiller"],
+		"UserAccesses": ["User", "Admin"]
+	},
+	{ 
+		"Id": "33253279-d552-4ba3-8319-6926b9794fb1", 
+		"Date": "2020-02-09", 
+		"Applicant": { 
+			"FullName": "Lola Belhassen", 
+			"Email": "B.Lola@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 1
+			},  
+		"JobTitle":"Monteur/Mécanicien (H/F)", 
+		"Source": "LinkedIn_V2",
+		"Rating": "4",
+		"Attachments": [{
+			"Id": "33253279-d552-4ba3-8319-6926b9794fb10209",
+			"OriginalFileName": "LolaCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=HgBVaWJ3kJ8=",
+			"File": "",
+			"FileExtension":".png"
+			}],
+		"Activities": [
+			{
+				"Name": "En cours", 
+				"Date": "2020-02-14", 
+				"UserName": "Guedj Karine",
+				"UserId": 152
+			},{
+				"Name": "Recrutée", 
+				"Date": "2020-03-10", 
+				"UserName": "Guedj Karine",
+				"UserId": 152
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Mon premier commentaire", 
+				"Date": "2020-02-14", 
+				"UserName": "Guedj Karine",
+				"UserId": 152
+			},
+			{
+				"Content": "Mon deuxième commentaire", 
+				"Date": "2020-03-10", 
+				"UserName": "Guedj Karine",
+				"UserId": 152
+			}
+		],
+		"Tags": [ "conseiller"],
+		"UserAccesses": ["User", "Admin"]
+	},
+	{ 
+		"Id": "5776e497-656b-4923-baea-46c28b2ca099", 
+		"Date": "2020-05-26", 
+		"Applicant": { 
+			"FullName": "Sophie Monnier", 
+			"Email": "M.Sophie@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 1
+			},  
+		"JobTitle":"Chargé de la Gestion des Stocks(H/F)", 
+		"Source": "LinkedIn_V2",
+		"Rating": "5",
+		"Attachments": [{
+			"Id": "5776e497-656b-4923-baea-46c28b2ca0990526",
+			"OriginalFileName": "LolaCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=HgBVaWJ3kJ8=",
+			"File": "",
+			"FileExtension":".png"
+			}],
+		"Activities": [
+			{
+				"Name": "En cours", 
+				"Date": "2020-06-02", 
+				"UserName": "Auclair Séverine",
+				"UserId": 167
+			},{
+				"Name": "Recrutée", 
+				"Date": "2020-06-10", 
+				"UserName": "Guedj Karine",
+				"UserId": 167
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Mon premier commentaire", 
+				"Date": "2020-06-02", 
+				"UserName": "Guedj Karine",
+				"UserId": 167
+			},
+			{
+				"Content": "Mon deuxième commentaire", 
+				"Date": "2020-06-10", 
+				"UserName": "Auclair Séverine",
+				"UserId": 167
+			}
+		],
+		"Tags": [ "Sophie","conseiller"],
+		"UserAccesses": ["User", "Admin"]
+	},
+    { 
+		"Id": "a20d4095-08ed-45a9-8449-f6e408713a87", 
+		"Date": "2020-01-16", 
+		"Applicant": { 
+			"FullName": "Ikram Belahla", 
+			"Email": "s.ikram@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 1
+			},  
+		"JobTitle":"Chef cuisinier", 
+		"Source": "Facebook",
+		"Rating": "4",
+		"Attachments": [{
+			"Id": "a20d4095-08ed-45a9-8449-f6e408713a81",
+			"OriginalFileName": "ikramCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".xls"
+			},
+			{
+			"Id": "a20d4095-08ed-45a9-8449-f6e408713a82",
+			"OriginalFileName": "ikramLettreMotivation",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".xlsx"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à l'étape Non traitée", 
+				"Date": "2020-01-01", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			},
+			{
+				"Name": "Candidature passée à l'étape En qualification",  
+				"Date": "2020-01-02", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Pas disponible avant le 20 Janvier", 
+				"Date": "2020-01-12", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			}
+		],
+		"Tags": ["ikram", "emploi", "cuisine"],
+		"UserAccesses": ["User", "Admin"]
+	},
+	{ 
+		"Id": "5f990f28-2123-40b9-9f92-ae9cbbfadae6", 
+		"Date": "2020-01-03", 
+		"Applicant": { 
+			"FullName": "Guillaume Durieux", 
+			"Email": "s.Guillaume@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Non recrutée", 
+			"Number": 2
+			},  
+		"JobTitle":"Plaquiste", 
+		"Source": "Adecco",
+		"Rating": "2",
+		"Attachments": [],
+		"Activities": [
+			{
+				"Name": "Mise à jour de l'évaluation (3)",  
+				"Date": "2020-01-05", 
+				"UserName": "Agence Tournai",
+				"UserId": 361
+			},
+			{
+				"Name": "Mise à jour de l'évaluation (2)", 
+				"Date": "2020-01-05", 
+				"UserName": "Agence Tournai",
+				"UserId": 361
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Le candidat habite trop loin et préfére prendre la voiture", 
+				"Date": "2020-01-5", 
+				"UserName": "Agence Tournai",
+				"UserId": 361
+			},
+			{
+				"Content": "Ne parle pas Français", 
+				"Date": "2020-01-5", 
+				"UserName": "Agence Tournai",
+				"UserId": 361
+			},
+			{
+				"Content": "Ne correspond pas à nos attentes", 
+				"Date": "2020-01-6", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			}
+		],
+		"Tags": ["Plaquiste", "contrebasse"],
+		"UserAccesses": ["User"]
+	},
+	{ 
+		"Id": "d511507c-7f78-4ebc-b9a2-6b3ff2b626ed", 
+		"Date": "2020-01-05", 
+		"Applicant": { 
+			"FullName": "Hocine Boutaleb", 
+			"Email": "s.Hocine@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Offre rejetée", 
+			"Number": 3
+			},  
+		"JobTitle":"Responsable d'atelier mécanique", 
+		"Source": "Manpower",
+		"Rating": "3",
+		"Attachments": [{
+			"Id": "d511507c-7f78-4ebc-b9a2-6b3ff2b626ef",
+			"OriginalFileName": "HocineCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".pdf"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à l'étape Entretien 1",  
+				"Date": "2020-01-05", 
+				"UserName": "Agence Mons",
+				"UserId": 362
+			},
+			{
+				"Name": "Mise à jour de l'évaluation (3)",
+				"Date": "2020-01-20", 
+				"UserName": "Agence Mons",
+				"UserId": 362
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Ne veut pas travailler le Samedi", 
+				"Date": "2020-01-20", 
+				"UserName": "Agence Mons",
+				"UserId": 362
+			},
+			{
+				"Content": "Ne souahite pas communiquer son adresse mail", 
+				"Date": "2020-01-15", 
+				"UserName": "Agence Marcq",
+				"UserId": 363
+			}
+		],
+		"Tags": ["mecanique"],
+		"UserAccesses": ["User"]
+	},
+	{ 
+		"Id": "f5c8b15e-8f90-4e6c-b776-4374eb074863", 
+		"Date": "2020-02-01", 
+		"Applicant": { 
+			"FullName": "Alexis Beauvilain", 
+			"Email": "s.Alexis@test.gt"
+			}, 
+		"Status": { 
+			"Name": "En cours", 
+			"Number": 0
+			},  
+		"JobTitle":"Peintre", 
+		"Source": "LeBoncoin",
+		"Rating": "4",
+		"Attachments": [{
+			"Id": "f5c8b15e-8f90-4e6c-b776-4374eb074863",
+			"OriginalFileName": "Alexis CV.pdf",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".pdf"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à l'étape Entretien 2",  
+				"Date": "2020-01-05", 
+				"UserName": "Agence Mons",
+				"UserId": 362
+			}
+		],
+		"Comments": [],
+		"Tags": ["Peintre"],
+		"UserAccesses": ["User"]
+	},
+	{ 
+		"Id": "1ca99e36-a0f4-4bca-81f9-4d7670688222", 
+		"Date": "2020-02-25", 
+		"Applicant": { 
+			"FullName": "Mohamed Rassaa", 
+			"Email": "s.Mohamed@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 1
+			},  
+		"JobTitle":"Directeur d'entreprise", 
+		"Source": "Crit",
+		"Rating": "5",
+		"Attachments": [{
+			"Id": "1ca99e36-a0f4-4bca-81f9-4d7670688223",
+			"OriginalFileName": "MohamedCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".jpeg"
+			},
+			{
+			"Id": "1ca99e36-a0f4-4bca-81f9-4d7670688223",
+			"OriginalFileName": "MohamedLettreMotivation",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".pdf"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à Non traitée",  
+				"Date": "2020-02-25", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			},
+			{
+				"Name": "Candidature passée à Entretien 1", 
+				"Date": "2020-02-25", 
+				"UserName": "Agence Tunis",
+				"UserId": 364
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Pas disponible avant 2 mois", 
+				"Date": "2020-02-27", 
+				"UserName": "Agence Tunis",
+				"UserId": 364
+			},
+			{
+				"Content": "Ne peut pas se déplacer en Belgique ni en Allemagne", 
+				"Date": "2020-02-26", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			}
+		],
+		"Tags": [],
+		"UserAccesses": []
+	},
+	{ 
+		"Id": "9ae386b8-bd6f-4b73-9539-86707ec665a1", 
+		"Date": "2020-03-01", 
+		"Applicant": { 
+			"FullName": "Etienne Lecompte", 
+			"Email": "s.Etienne@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 1
+			},  
+		"JobTitle":"Plaquiste", 
+		"Source": "Indeed",
+		"Rating": "3",
+		"Attachments": [{
+			"Id": "9ae386b8-bd6f-4b73-9539-86707ec665a2",
+			"OriginalFileName": "EtienneCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".jpg"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Mise à jour de l'évaluation (1)", 
+				"Date": "2020-03-01", 
+				"UserName": "Agence Arras",
+				"UserId": 365
+			},
+			{
+				"Name": "Mise à jour de l'évaluation (2)",  
+				"Date": "2020-03-02", 
+				"UserName": "Agence Arras",
+				"UserId": 365
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Interessé mais réfléchit", 
+				"Date": "2020-03-01", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			},
+			{
+				"Content": "A rappeler le soir après 19H", 
+				"Date": "2020-03-02", 
+				"UserName": "Agence Arras",
+				"UserId": 365
+			},
+			{
+				"Content": "Ne veut pas se déplacer à Lille", 
+				"Date": "2020-03-02", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			}
+		],
+		"Tags": ["Plaquiste", "Lead"],
+		"UserAccesses": ["User", "Admin"]
+	},
+	{ 
+		"Id": "705fbd44-a65b-43e0-a3db-2513ba15f47d", 
+		"Date": "2020-03-10", 
+		"Applicant": { 
+			"FullName": "Nella Ugolin", 
+			"Email": "s.Nella@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 1
+			},  
+		"JobTitle":"Chef cuisinier", 
+		"Source": "Facebook",
+		"Rating": "1",
+		"Attachments": [{
+			"Id": "705fbd44-a65b-43e0-a3db-2513ba15f47v",
+			"OriginalFileName": "NellaCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".pdf"
+			},
+			{
+			"Id": "705fbd44-a65b-43e0-a3db-2513ba15f47h",
+			"OriginalFileName": "NellaCV2",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=sYL0HTPHbcU=",
+			"File": "",
+			"FileExtension": ".doc"
+			},
+			{
+			"Id": "705fbd44-a65b-43e0-a3db-2513ba15f47j",
+			"OriginalFileName": "NellaMotivation",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=sYL0HTPHbcU=",
+			"File": "",
+			"FileExtension": ".docx"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à Non traitée",  
+				"Date": "2020-03-11", 
+				"UserName": "Agence Paris",
+				"UserId": 366
+			},
+			{
+				"Name": "Candidature passée à En qualification",  
+				"Date": "2020-03-12", 
+				"UserName": "Agence Paris",
+				"UserId": 366
+			},
+			{
+				"Name": "Candidature passée à Entretien 1",  
+				"Date": "2020-03-12", 
+				"UserName": "Agence Paris",
+				"UserId": 366
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Rien à dire", 
+				"Date": "2020-03-13", 
+				"UserName": "Agence Paris",
+				"UserId": 366
+			}
+		],
+		"Tags": ["cuisine", "Lead"],
+		"UserAccesses": ["User"]
+	},
+	{ 
+		"Id": "2d522628-fceb-4fcb-b90e-98acb69542ae", 
+		"Date": "2020-03-20", 
+		"Applicant": { 
+			"FullName": "Mehdi Jemal", 
+			"Email": "s.Mehdi@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Offre rejetée", 
+			"Number": 3
+			},  
+		"JobTitle":"Chef de chantier", 
+		"Source": "LinkedIn",
+		"Rating": "4",
+		"Attachments": [],
+		"Activities": [
+			{
+				"Name": "Candidature passée à Entretien 1",  
+				"Date": "2020-03-21", 
+				"UserName": "Agence Marseille",
+				"UserId": 367
+			},
+			{
+				"Name": "Candidature passée à Entretien 2",   
+				"Date": "2020-03-22", 
+				"UserName": "Agence Marseille",
+				"UserId": 367
+			}
+		],
+		"Comments": [],
+		"Tags": ["cuisine", "Lead"],
+		"UserAccesses": ["User"]
+	},
+	{ 
+		"Id": "6bd04594-9f22-4a66-beaa-2fb0b79dd86c", 
+		"Date": "2020-03-30", 
+		"Applicant": { 
+			"FullName": "Didier Super", 
+			"Email": "s.Didier@test.gt"
+			}, 
+		"Status": { 
+			"Name": "En cours", 
+			"Number": 0
+			},  
+		"JobTitle":"Professeur de Math", 
+		"Source": "LinkedIn",
+		"Rating": "5",
+		"Attachments": [],
+		"Activities": [
+			{
+				"Name": "Candidature passée à Entretien 1",   
+				"Date": "2020-03-21", 
+				"UserName": "Agence Marseille",
+				"UserId": 367
+			},
+			{
+				"Name": "Candidature passée à Entretien 2",   
+				"Date": "2020-03-22", 
+				"UserName": "Agence Marseille",
+				"UserId": 367
+			}
+		],
+		"Comments": [],
+		"Tags": ["cuisine", "Lead"],
+		"UserAccesses": ["User"]
+	},
+	{ 
+		"Id": "79cafab1-d597-4969-97dc-57e9d36400a4", 
+		"Date": "2020-01-30", 
+		"Applicant": { 
+			"FullName": "Ikram Belahla", 
+			"Email": "s.ikram@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 1
+			},  
+		"JobTitle":"Chef cuisinier", 
+		"Source": "Facebook",
+		"Rating": "4",
+		"Attachments": [{
+			"Id": "a20d4095-08ed-45a9-8449-f6e408713a81",
+			"OriginalFileName": "ikramCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".pdf"
+			},
+			{
+			"Id": "a20d4095-08ed-45a9-8449-f6e408713a82",
+			"OriginalFileName": "ikramLettreMotivation",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".pdf"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à Entretien 1",   
+				"Date": "2020-01-01", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			},
+			{
+				"Name": "Candidature passée à Proposition",   
+				"Date": "2020-01-02", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Pas disponible avant le 20 Janvier", 
+				"Date": "2020-01-12", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			}
+		],
+		"Tags": ["ikram", "emploi", "cuisine"],
+		"UserAccesses": ["User", "Admin"]
+	},
+	{ 
+		"Id": "5854d632-2d71-41b8-8f52-24391c4c7490", 
+		"Date": "2020-01-23", 
+		"Applicant": { 
+			"FullName": "Virginie Auclair", 
+			"Email": "a.Virginie@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Non Recrutée", 
+			"Number": 2
+			},  
+		"JobTitle":"développeur full stack", 
+		"Source": "jobiJoba",
+		"Rating": "3",
+		"Attachments": [{
+			"Id": "5854d632-2d71-41b8-8f52-24391c4c74900123",
+			"OriginalFileName": "VirginieCV.pdf",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".pdf"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à Entretien 1",   
+				"Date": "2020-01-26", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			},
+			{
+				"Name": "Candidature passée à Proposition",   
+				"Date": "2020-01-29", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Pas disponible avant le 20 Janvier", 
+				"Date": "2020-01-26", 
+				"UserName": "Agence Lille",
+				"UserId": 360
+			}
+		],
+		"Tags": [ "emploi", "cuisine"],
+		"UserAccesses": ["User", "Admin"]
+	},
+	{ 
+		"Id": "ed6f81cc-5d9c-4122-800a-6a0d83cca5a0", 
+		"Date": "2020-03-23", 
+		"Applicant": { 
+			"FullName": "Pauline Sourivong", 
+			"Email": "a.Pauline@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Non Recrutée", 
+			"Number": 2
+			},  
+		"JobTitle":"développeur full stack Java", 
+		"Source": "Indeed",
+		"Rating": "2",
+		"Attachments": [{
+			"Id": "ed6f81cc-5d9c-4122-800a-6a0d83cca5a00223",
+			"OriginalFileName": "PaulineCV.pdf",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".pdf"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à Entretien 1",   
+				"Date": "2020-01-01", 
+				"UserName": "Agence paris",
+				"UserId": 177
+			},
+			{
+				"Name": "Candidature passée à Proposition",   
+				"Date": "2020-01-02", 
+				"UserName": "Agence paris",
+				"UserId": 177
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Pas disponible avant le 20 Janvier", 
+				"Date": "2020-01-12", 
+				"UserName": "Agence paris",
+				"UserId": 177
+			}
+		],
+		"Tags": [ "emploi", "java"],
+		"UserAccesses": ["User", "Admin"]
+	},
+		{ 
+		"Id": "732e7e67-f683-4fd6-b0d8-e4597eff4680", 
+		"Date": "2019-05-23", 
+		"Applicant": { 
+			"FullName": "Raphael Bollet", 
+			"Email": "a.Raphael@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 2
+			},  
+		"JobTitle":"développeur full stack C# vueJs", 
+		"Source": "Apec",
+		"Rating": "4",
+		"Attachments": [{
+			"Id": "732e7e67-f683-4fd6-b0d8-e4597eff46802523",
+			"OriginalFileName": "RaphaelCV.pdf",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=zWFcNSM2YhA=",
+			"File": "",
+			"FileExtension": ".odt"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à Entretien 1",   
+				"Date": "2019-05-29", 
+				"UserName": "ROLLAND St Etienne",
+				"UserId": 177
+			},
+			{
+				"Name": "Candidature passée à Proposition",   
+				"Date": "2019-06-21", 
+				"UserName": "ROLLAND St Etienne",
+				"UserId": 177
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Pas disponible avant le 20 Janvier", 
+				"Date": "2019-06-29", 
+				"UserName": "ROLLAND St Etienne",
+				"UserId": 177
+			}
+		],
+		"Tags": [ "emploi", "C#","vueJs"],
+		"UserAccesses": ["User"]
+	},
+	{ 
+		"Id": "21558dbd-a145-4689-8622-08739f85e782", 
+		"Date": "2019-12-16", 
+		"Applicant": { 
+			"FullName": "Sana Iggui", 
+			"Email": "a.Sana@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 2
+			},  
+		"JobTitle":"Equipier polyvalent (h/f)", 
+		"Source": "Etudiant",
+		"Rating": "4",
+		"Attachments": [{
+			"Id": "21558dbd-a145-4689-8622-08739f85e7821216",
+			"OriginalFileName": "SanaCV.pdf",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".pdf"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à Entretien 1",   
+				"Date": "2019-12-19", 
+				"UserName": "BALLENDUX Rosny",
+				"UserId": 177
+			},
+			{
+				"Name": "Candidature passée à Proposition",   
+				"Date": "2019-12-23", 
+				"UserName": "BALLENDUX Rosny",
+				"UserId": 177
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Pas disponible avant le 20 Janvier", 
+				"Date": "2019-12-19",  
+				"UserName": "BALLENDUX Rosny",
+				"UserId": 177
+			}
+		],
+		"Tags": [ "Equipier" ,"polyvalent"],
+		"UserAccesses": ["User"]
+	},
+	{ 
+		"Id": "b80f0605-d921-43ed-8c17-4e90c72903e0", 
+		"Date": "2020-02-06", 
+		"Applicant": { 
+			"FullName": "Lilia Hamiche", 
+			"Email": "h.Lilia@test.gt"
+			}, 
+		"Status": { 
+			"Name": "Recrutée", 
+			"Number": 1
+			},  
+		"JobTitle":"INFIRMIER DIPLOME DE L'ETAT (H/F)", 
+		"Source": "apecita",
+		"Rating": "3",
+		"Attachments": [{
+			"Id": "b80f0605-d921-43ed-8c17-4e90c72903e00206",
+			"OriginalFileName": "LiliaCV",
+			"Uri":"https://preprod-app.mytalentplug.com//PreviewFile.aspx?encryptedid=/nX98P8iCug=",
+			"File": "",
+			"FileExtension": ".pdf"
+			}
+		],
+		"Activities": [
+			{
+				"Name": "Candidature passée à Entretien 1",   
+				"Date": "2020-02-15", 
+				"UserName": "Agence Lille",
+				"UserId": 150
+			}
+		],
+		"Comments": [
+			{
+				"Content": "Pas disponible", 
+				"Date": "2020-02-28", 
+				"UserName": "Agence Lille",
+				"UserId": 150
+			}
+		],
+		"Tags": ["INFIRMIER", "DIPLOME"],
+		"UserAccesses": ["User", "Admin"]
+	}
 ]
