@@ -42,7 +42,7 @@
 				"UserId": 90
 			}
 		],
-		"Tags": ["emploi", "conseiller"],
+		"Tags": ["#emploi", "#conseiller"],
 		"UserAccesses": ["User"]
 	},
 	{ 
@@ -96,7 +96,7 @@
 			}
 		],
 		"Tags": [ "conseiller"],
-		"UserAccesses": ["User", "Admin"]
+		"UserAccesses": ["#User", "#Admin"]
 	},
 	{ 
 		"Id": "37f2a61f-e00a-4783-8a93-dbdbdfa1448b", 
@@ -146,7 +146,7 @@
 				"UserId": 99
 			}
 		],
-		"Tags": [ "conseiller"],
+		"Tags": [ "#conseiller"],
 		"UserAccesses": ["User", "Admin"]
 	},
 	{ 
@@ -197,7 +197,7 @@
 				"UserId": 152
 			}
 		],
-		"Tags": [ "conseiller"],
+		"Tags": [ "#conseiller"],
 		"UserAccesses": ["User", "Admin"]
 	},
 	{ 
@@ -248,7 +248,7 @@
 				"UserId": 167
 			}
 		],
-		"Tags": [ "Sophie","conseiller"],
+		"Tags": [ "#Sophie","#conseiller"],
 		"UserAccesses": ["User", "Admin"]
 	},
     { 
@@ -303,7 +303,7 @@
 			}
 		],
 		"Tags": ["ikram", "emploi", "cuisine"],
-		"UserAccesses": ["User", "Admin"]
+		"UserAccesses": ["#User", "#Admin"]
 	},
 	{ 
 		"Id": "5f990f28-2123-40b9-9f92-ae9cbbfadae6", 
@@ -355,7 +355,7 @@
 			}
 		],
 		"Tags": ["Plaquiste", "contrebasse"],
-		"UserAccesses": ["User"]
+		"UserAccesses": ["#User"]
 	},
 	{ 
 		"Id": "d511507c-7f78-4ebc-b9a2-6b3ff2b626ed", 
@@ -407,7 +407,7 @@
 				"UserId": 363
 			}
 		],
-		"Tags": ["mecanique"],
+		"Tags": ["#mecanique"],
 		"UserAccesses": ["User"]
 	},
 	{ 
@@ -441,7 +441,7 @@
 			}
 		],
 		"Comments": [],
-		"Tags": ["Peintre"],
+		"Tags": ["#Peintre"],
 		"UserAccesses": ["User"]
 	},
 	{ 
@@ -560,7 +560,7 @@
 				"UserId": 360
 			}
 		],
-		"Tags": ["Plaquiste", "Lead"],
+		"Tags": ["#Plaquiste", "#Lead"],
 		"UserAccesses": ["User", "Admin"]
 	},
 	{ 
@@ -627,7 +627,7 @@
 				"UserId": 366
 			}
 		],
-		"Tags": ["cuisine", "Lead"],
+		"Tags": ["#cuisine", "#Lead"],
 		"UserAccesses": ["User"]
 	},
 	{ 
@@ -693,7 +693,7 @@
 			}
 		],
 		"Comments": [],
-		"Tags": ["cuisine", "Lead"],
+		"Tags": ["#cuisine", "#Lead"],
 		"UserAccesses": ["User"]
 	},
 	{ 
@@ -794,7 +794,7 @@
 				"UserId": 360
 			}
 		],
-		"Tags": [ "emploi", "cuisine"],
+		"Tags": [ "#emploi", "#cuisine"],
 		"UserAccesses": ["User", "Admin"]
 	},
 	{ 
@@ -841,7 +841,7 @@
 				"UserId": 177
 			}
 		],
-		"Tags": [ "emploi", "java"],
+		"Tags": [ "#emploi", "#java"],
 		"UserAccesses": ["User", "Admin"]
 	},
 		{ 
@@ -888,7 +888,7 @@
 				"UserId": 177
 			}
 		],
-		"Tags": [ "emploi", "C#","vueJs"],
+		"Tags": [ "#emploi", "#C#","#vueJs"],
 		"UserAccesses": ["User"]
 	},
 	{ 
@@ -935,7 +935,7 @@
 				"UserId": 177
 			}
 		],
-		"Tags": [ "Equipier" ,"polyvalent"],
+		"Tags": [ "#Equipier" ,"#polyvalent"],
 		"UserAccesses": ["User"]
 	},
 	{ 
@@ -976,7 +976,7 @@
 				"UserId": 150
 			}
 		],
-		"Tags": ["INFIRMIER", "DIPLOME"],
+		"Tags": ["#INFIRMIER", "#DIPLOME"],
 		"UserAccesses": ["User", "Admin"]
 	}
 ]
